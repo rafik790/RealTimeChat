@@ -1,0 +1,23 @@
+{
+  "name": "realtimechat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafik790/RealTimeChat.git"
+  },
+  "author": "Rafik Mondal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafik790/RealTimeChat/issues"
+  },
+  "homepage": "https://github.com/rafik790/RealTimeChat#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
