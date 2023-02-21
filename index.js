@@ -15,3 +15,10 @@ upgradedServer.on("connection", function (socket) {
     });
     console.log("Websocket Connected", socket.id);
 })
+
+//upgradedServer.emit("hello", "world"); - To all connected clients
+//socket.broadcast.emit("hello", "world"); - To all connected clients except the sender
+//socket.emit("hello", "world") - To only the sender
+
+//upgradedServer.to("room1").emit("some event"); - To all connected clients in room1
+//socket.broadcast.to("room1").emit("some event");  - To all connected clients except the sender in room1
